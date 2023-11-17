@@ -51,11 +51,41 @@ console.log("inside practice.js")
 // }
 // console.log(isMultipleOf(10, 2));
 
-function isTrue(boolean) {
 
+// function isTrue(boolean) {
+//
+// }
+//
+// function isFalse(boolean) {
+//
+// }
+//
+// function isFalse(boolean){
+//
+// }
+//
+// function isTruthy(input){
+//
+// }
+
+// function isFalsy(input) {
+//
+// }
+
+
+// function isVowel(letter){
+//
+// }
+//
+// function isConsonant(letter){
+//
+// }
+
+function isCapital(letter) {
+    return letter.toUpperCase();
 }
 
-function isFalse(boolean) {
+let smallLetter = 'abdul';
 
-}
+console.log(isCapital(smallLetter));
 
